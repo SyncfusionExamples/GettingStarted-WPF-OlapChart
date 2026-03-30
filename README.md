@@ -143,6 +143,9 @@ public partial class MainWindow : Window
 
 Build and run the application. The WPF OlapChart will be displayed with data from the Adventure Works cube, showing **Internet Sales Amount** by **Customer Geography (Country)** across **Fiscal Years**.
 
+<img width="797" height="524" alt="Screenshot 2026-03-30 131918" src="https://github.com/user-attachments/assets/944448e4-dbe3-48ae-bc93-925eee1ed2cd" />
+
+
 ## Project Structure
 
 ```
