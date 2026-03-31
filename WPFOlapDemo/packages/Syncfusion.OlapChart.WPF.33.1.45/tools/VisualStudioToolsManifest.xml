@@ -1,0 +1,9 @@
+<FileList>
+
+<File Reference="Syncfusion.OlapChart.WPF.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WPF" VSCategory="Syncfusion WPF UI Controls (NuGet)" BlendCategory="Syncfusion WPF UI Controls (NuGet)">
+		<Item Type="Syncfusion.Windows.Chart.Olap.OlapChart"/>
+	</ToolboxItems>
+</File>
+</FileList>
