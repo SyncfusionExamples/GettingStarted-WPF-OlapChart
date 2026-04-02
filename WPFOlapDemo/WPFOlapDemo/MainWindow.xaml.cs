@@ -28,7 +28,7 @@ namespace WPFOlapDemo
         public MainWindow()
         {
             InitializeComponent();
-            _connectionString = "Data Source=http://bi.syncfusion.com/olap/msmdpump.dll; Initial Catalog=Adventure Works DW 2008 SE;";
+            _connectionString = "Data Source=https://bi.syncfusion.com/olap/msmdpump.dll; Initial Catalog=Adventure Works DW 2008 SE;";
             //Connection string is passed to OlapDataManager as an argument
             _olapDataManager = new OlapDataManager(_connectionString);
             //A default OlapReport is set to OlapDataManager
