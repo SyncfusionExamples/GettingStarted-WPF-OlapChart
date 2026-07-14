@@ -35,33 +35,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Chart.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Chart.WPF.Classic.33.1.45\lib\net462\Syncfusion.Chart.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Licensing, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Licensing.33.1.45\lib\net462\Syncfusion.Licensing.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Linq.Base, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Linq.Base.33.1.45\lib\net462\Syncfusion.Linq.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Olap.Base, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Olap.Base.33.1.45\lib\net462\Syncfusion.Olap.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.OlapChart.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.OlapChart.WPF.33.1.45\lib\net462\Syncfusion.OlapChart.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.OlapShared.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.OlapShared.WPF.33.1.45\lib\net462\Syncfusion.OlapShared.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.SfChart.WPF.33.1.45\lib\net462\Syncfusion.SfChart.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Shared.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Shared.WPF.33.1.45\lib\net462\Syncfusion.Shared.WPF.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Tools.WPF, Version=33.1462.45.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Tools.WPF.33.1.45\lib\net462\Syncfusion.Tools.WPF.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Syncfusion.Chart.WPF" Version="*"/>
+    <PackageReference Include="Syncfusion.Licensing" Version="*"/>
+    <PackageReference Include="Syncfusion.Linq.Base" Version="*"/>
+    <PackageReference Include="Syncfusion.Olap.Base" Version="*"/>
+    <PackageReference Include="Syncfusion.OlapChart.WPF" Version="*"/>
+    <PackageReference Include="Syncfusion.OlapShared.WPF" Version="*"/>
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="*"/>
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="*"/>
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="*"/>
+
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
